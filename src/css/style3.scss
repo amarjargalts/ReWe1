@@ -1,0 +1,16 @@
+$back_color: #333;
+$h_color: aqua;
+body{
+    background: $back_color
+}
+
+h1{
+    color: $h_color;
+    span{
+        font-weight: bold;
+        background: yellow
+    }
+}
+.span_class{
+    color: $h_color
+}
