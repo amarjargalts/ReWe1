@@ -8,9 +8,19 @@ h1{
     color: $h_color;
     span{
         font-weight: bold;
-        background: yellow
+        background: green
     }
 }
 .span_class{
     color: $h_color
+}
+.cont_main{
+    margin-bottom: 30px
+}
+.table_header{
+    background: cornflowerblue;
+    color: #fff;
+}
+table{
+    font-size: 12px;
 }
