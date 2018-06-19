@@ -1,7 +1,7 @@
-$back_color: #333;
+$back_color: #000;
 $h_color: aqua;
 body{
-    background: $back_color
+    background-color: $back_color
 }
 
 h1{
@@ -15,12 +15,19 @@ h1{
     color: $h_color
 }
 .cont_main{
-    margin-bottom: 30px
-}
-.table_header{
-    background: cornflowerblue;
-    color: #fff;
+    margin-bottom: 60px
 }
 table{
-    font-size: 12px;
+    font-size: 12px
+}
+
+.fixHeader{
+    position: fixed
+}
+.easylink{
+    margin-top: 60px;
+    font-size: 12px
+}
+.menu-border{
+    border-bottom: 1px solid #ccc
 }
